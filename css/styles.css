@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  background: #fafafa;
+  color: #a3a5ae;
+}
+
+h1,
+h3 {
+  color: #4c4e61;
+}
+
+@media screen and (max-width: 576px) {
+  h1 {
+    width: 85%;
+    margin: 0 auto;
+    font-size: 22px;
+  }
+}
+
+h3 {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 576px) {
+  .container {
+    width: 100%;
+    margin: 0;
+  }
+}
+.container .header {
+  text-align: center;
+}
+.container .header .title {
+  margin-top: 45px;
+  margin-bottom: 0;
+  font-weight: 200;
+}
+.container .header .subtitle {
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 7.5px;
+}
+.container .header p {
+  margin-top: 7.5px;
+  width: 41.25%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 13.5px;
+}
+@media screen and (max-width: 576px) {
+  .container .header p {
+    width: 80%;
+    font-size: 14px;
+  }
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  margin-top: 3.5%;
+}
+@media screen and (max-width: 576px) {
+  .wrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+  }
+}
+
+.section-one {
+  border-radius: 6px;
+  box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  padding: 30px 35px;
+  width: 30.3333333333%;
+  border-top: 4px solid #45d3d3;
+  margin: 1.5%;
+}
+@media screen and (max-width: 576px) {
+  .section-one {
+    width: 60%;
+    margin-bottom: 2.75%;
+  }
+}
+
+.section-mixed {
+  display: flex;
+  flex-direction: column;
+  width: 30.3333333333%;
+  margin: 1.5%;
+}
+@media screen and (max-width: 576px) {
+  .section-mixed {
+    width: 79.5%;
+    margin-bottom: 2.75%;
+    margin-top: 2.75%;
+  }
+}
+.section-mixed .section-two {
+  border-radius: 6px;
+  box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  padding: 30px 35px;
+  border-top: 4px solid #ea5353;
+  margin-bottom: 5.5%;
+}
+@media screen and (max-width: 576px) {
+  .section-mixed .section-two {
+    margin-bottom: 2.75%;
+  }
+}
+.section-mixed .section-three {
+  border-radius: 6px;
+  box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  padding: 30px 35px;
+  border-top: 4px solid #fcaf4a;
+  margin-top: 5.5%;
+}
+@media screen and (max-width: 576px) {
+  .section-mixed .section-three {
+    margin-top: 2.75%;
+  }
+}
+
+.section-four {
+  border-radius: 6px;
+  box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  padding: 30px 35px;
+  width: 30.3333333333%;
+  margin: 1.5%;
+  border-top: 4px solid #549ef2;
+}
+@media screen and (max-width: 576px) {
+  .section-four {
+    width: 60%;
+    margin-bottom: 2.75%;
+    margin-top: 2.75%;
+  }
+}
+
+img {
+  float: right;
+}
